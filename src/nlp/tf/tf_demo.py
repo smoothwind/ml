@@ -12,8 +12,6 @@ from common import stop_words
   （2）. 停用词: 即一些无意义的词，例如：的、是、了
 """
 
-
-
 def get_TF(words, topK=10):
     tf_dic = {}
     for w in words:
